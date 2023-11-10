@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.banner-inner {
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-card {
+    width: 80% !important;
+    padding: 4rem;
+    border-radius: 15px !important;
+    border: none !important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.banner-card h2 {
+    font-size: 25px;
+}
+.top {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.righ ul {
+    padding-left: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.righ ul li {
+    list-style: none;
+}
+.righ li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 10;
+    padding: .6rem 1rem .6rem 1rem;
+    border-radius: 6px;
+}
+.righ ul li a:hover {
+    background-color: #849fff;
+    padding: .6rem 1rem .6rem 1rem;
+    color: white;
+}
+.top .left input {
+    padding: .5rem 0 .5rem 1.7rem ;
+    width: 120%;
+    border: none;
+    outline: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left i {
+    transform: translateX(22px);
+}
+.top .left input::placeholder {
+    font-size: 14px;
+}
+.banner-row {
+    margin-top: 4rem !important;
+}
+.banner-row-card {
+    display: flex;
+    flex-direction: row !important;
+    padding: 0px !important;
+    border: none !important;
+    border-radius: 0px !important;
+    gap: 1em;
+    padding: 1rem !important;
+    margin-bottom: 2rem !important;
+    border: 1px solid white !important;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 10px !important;
+}
+.banner-row-card:hover {
+    border: 1px solid rgba(107, 189, 252, 0.7) !important;
+    box-shadow: rgba(153, 206, 246, 0.18) 0px 1px 2px,rgba(153, 206, 246, 0.18) 0px 2px 4px, rgba(153, 206, 246, 0.18) 0px 4px 8px, rgba(153, 206, 246, 0.18) 0px 8px 16px,rgba(153, 206, 246, 0.18) 0px 16px 32px,rgba(153, 206, 246, 0.18) 0px 32px 64px !important;
+    border-radius: 10px !important;
+}
+.card-img {
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 50%;
+}
+.card-img img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card-text h2 {
+    font-size: 17px;
+}
+.card-text p {
+    font-size: 14px;
+    line-height: 0;
+}
+.card-text ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: .3rem;
+    padding-left: 0px !important;
+    margin-top: 2rem !important;
+}
+.card-text ul li {
+    list-style: none;
+    border: 1px solid rgba(14, 139, 235, 0.15);
+    border-radius: 20px;
+    padding: .1rem .9rem .1rem .9rem;
+    font-size: 13px;
+    color: #849fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
